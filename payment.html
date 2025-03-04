@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=Ae9S0o1wwOEGm4TP_5jks8ngmbZn_7qDPphLgBwM0TuKAMu1-XMBWFEUHwgGUIvjXbidKQeomvfbBc_J&currency=USD"></script>
+</head>
+<body>
+  <section class="payment">
+    <div class="container">
+      <h1>Complete Your Payment</h1>
+      <p>Enter your email to receive course access:</p>
+      
+      <!-- Email Input Field -->
+      <input type="email" id="customer-email" placeholder="Enter your email" required>
+      <br><br>
+      
+      <!-- PayPal Button -->
+      <div id="paypal-button-container"></div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
